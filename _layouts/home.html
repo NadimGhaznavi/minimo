@@ -21,7 +21,7 @@ layout: base
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.minimo.date_format | default: "%b %-d, %Y" -%}
     <table><tr><th>Date</th><th>Post</th></tr>
     {%- for post in posts -%}
       <td>{{ post.date | date: date_format }}</td>

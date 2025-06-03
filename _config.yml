@@ -15,5 +15,5 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 
-minima:
+minimo:
   skin: dark
